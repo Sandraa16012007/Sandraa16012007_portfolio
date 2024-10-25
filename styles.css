@@ -4,7 +4,7 @@
   
 
 body{
-    background-color:#1f2022;
+    background-color:#3f3f3f;
 }
 
 header{
@@ -42,7 +42,7 @@ a{
 
 a:hover{
     color:#0f0f0f;
-    background-color:#aaeafa;
+    background-color:#ce7aff;
 }
 
 .first_sec::before {  
@@ -59,7 +59,7 @@ a:hover{
     position: absolute;
     top: 10; right: 10; bottom: 10; left: 10;
     inset: 0 0 0 0;
-    background: #aaeafa;
+    background: #8652f7;
     z-index: -1;
     transition: transform .3s ease;
   }
@@ -86,7 +86,7 @@ a:hover{
 
 .lines_first_line h2::before, .lines_second_line h2::before {
     content: "<";
-    color: gray;
+    color: rgb(10, 4, 4);
     font-weight: 400;
 }
 
@@ -111,7 +111,7 @@ a:hover{
 
 .lines_first_line h2::after, .lines_second_line h2::after {
     content: ">";
-    color: gray;
+    color: rgb(10, 4, 4);
     font-weight: 400;
 }
 
@@ -168,7 +168,7 @@ a:hover{
 }
 
 .para_about:hover{
-    background-color: #a5a4ff6e;
+    background-color: #a256ff6e;
 }
 
 #based_in{
@@ -176,9 +176,7 @@ a:hover{
     font-size:1rem;
     font-weight:bold;
 }
-#based_in:hover{
-    background-color:#eb6d46ad ;
-}
+
 
 #about_note{
     padding-top:30px;
@@ -268,68 +266,6 @@ a:hover{
     padding-top:10px;
 }
 
-.achievements{
-    background-color: rgb(236, 232, 232);
-    padding:30px;
-    width:90%;
-    margin:auto;
-    height:75%;
-}
-
-#achievements_list{
-    display: inline;
-    padding-left: 40%;
-    padding-top:40%;
-    font-size:1.5rem;
-    background-color: #1f2022;
-    color:white;
-    
-}
-
-#achievement-title{
-    font-size:2rem;
-    text-align:center;
-    padding:10px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #eb6c46;
-    width:fit-content;
-    color:white;
-    height: fit-content;
-    margin: auto;
-}
-  
-
-#mono_logo{
-    float: right;
-    width:10%;
-    height:30%;
-    padding-left: 50%;
-
-}
-
-#pcra_logo{
-    float: left;
-    width:10%;
-    height:30%;
-    border-radius:70px;
-}
-
-.achievements>ul{
-    padding-top:50px;
-    text-align: center;
-    list-style: none;
-}
-
-.achievements>ul>li{
-    font-size:1.2rem;
-    padding-bottom: 24px;
-    padding: left 20%;
-    font-family: 'Courier New', Courier, monospace;
-}
-.achievements>ul>li:hover{
-    font-size:1.5rem;
-    font-weight: bold;
-}
 
 #projects{
     background-color: rgb(236, 232, 232);
@@ -445,9 +381,32 @@ a:hover{
 
 .email{
     margin-top:0;
-    background-color: white;
-    width:80%;
-    height:50px;
+}
+
+#linkedin_logo{
+    display: inline;
+    width:30px;
+    height:30px;
+    padding-top: 10px;
+    border-radius:90px;
+    padding-left: 10px;
+}
+
+#linkedin_link{
+    font-size: 1.5rem;
+    color:#0f0f0f;
     padding-bottom: 10px;
 }
+
+#linkedin_link:hover{
+    background-color:#0f0f0f;
+    color:white;
+}
+
+.linkedin{
+    margin-top:0;
+
+    padding-bottom: 10px;
+}
+
 
